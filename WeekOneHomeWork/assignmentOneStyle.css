@@ -1,0 +1,302 @@
+body{
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+
+header {
+    position:relative;
+    display:block;
+    max-width:100%;
+    height: 53px;
+    margin:0 auto;
+    padding:1rem 5rem;
+    background-color: white;
+    color:#fff;
+}
+header h1 {
+    line-height: 45px;
+    font-size: 2rem;
+    margin: 0; 
+}
+nav {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    float:right;
+}
+
+nav  li {
+    position:relative;
+    display:inline-block;
+    list-style-type: none;
+    font-family: "Open Sans", "Droid Sans", Helvetica, Arial, sans-serif;
+    color: cadetblue;
+    padding:0 1rem;
+}
+nav li > a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+}
+a:hover, a:focus {
+    text-decoration: none;
+    background-color: #eee;
+}
+#header-title {
+    position:absolute;
+    
+    background: cadetblue;
+    display: block;
+    top: 0;
+    left: 70px;
+    width:30% ;
+    height: 84px;
+    color: white;
+    float: left;
+    text-align: center;
+}
+
+.clr {
+    clear: both;
+}
+
+.button {
+    background: cadetblue;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+}
+
+.button:hover{
+    color: aquamarine;
+}
+
+#aboutme{
+    float: left;
+    width: 70%;
+    margin-top: 20px;
+    padding: 0px 20px;
+/*    height: 300px;*/
+    background: white;
+    color: black;
+    box-sizing: border-box;
+}
+
+#aboutme hr {
+    border: 2px solid lightgray;
+}
+
+#aboutme img{
+    float: left;
+    margin-right: 20px;
+}
+
+#aboutme h1 {
+    color: cadetblue;
+}
+
+#aboutme-p {
+    float:right;
+    width: 100%;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+#sidebar{
+    float: right;
+    width: 25%;
+/*    height: 300px;*/
+    background: white;
+    color: black;
+    margin-top: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+#sidebar h3 {
+    color: cadetblue;
+    text-align: center;
+}   
+
+#mainfooter {
+    background-color: darkgray;
+    color: cadetblue;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    
+}
+
+@media(max-width: 600px){
+    #aboutme{
+        width: 100%;
+        float:none;
+    }
+    
+     #sidebar{
+        width: 100%;
+        float:none;
+    }
+    .box-1{
+        width: 100%;
+        float:none;
+    }
+    .box-2{
+        width: 100%;
+        float:none;
+    }
+    .box-3{
+        width: 100%;
+        float:none;
+    }
+    .box-4{
+        width: 100%;
+        float:none;
+    }
+    .box-5{
+        width: 100%;
+        float:none;
+    }    
+}
+
+.my-form {
+    background: white;
+    float: left;
+    width: 70%;
+    margin-top: 20px;
+    padding-left: 20px;
+    color: cadetblue;
+    box-sizing: border-box;
+    
+    
+}
+
+.my-form h1 {
+    padding-top: 10px;
+}
+
+.my-form.about-page {
+/*    color: gray;*/
+}
+
+
+.my-form label {
+    display: block;
+}
+
+.my-form .form-group {
+    padding-bottom: 15px;
+}
+
+.my-form input[type="text"] {
+   padding: 5px;
+    width: 95%;
+}
+
+.my-form textarea {
+    padding: 10px;
+    width: 95%;
+    height: 200px;
+}
+
+.main-box {
+    margin-top: 20px;
+    float: left;
+    background: white;
+    width: 73%;
+    
+}
+
+.box-1 {
+background-image: url(images/dogimage.jpg);    color: wheat;
+     width: 250px;
+    height: 200px;;
+    float: left;
+    margin: 20px 10px 20px 40px;
+    
+}
+
+.box-2 {
+    background-image: url(images/dogimage.jpg);
+     background: gary;
+    color: wheat;
+    width: 250px;
+    height: 200px;
+    float: right;
+    margin: 29px;
+    margin: 20px 40px 20px 20px;
+}
+
+.box-3 {
+    background-image: url(images/dogimage.jpg);
+    color: wheat;
+     width: 250px;
+    height: 200px;
+    float: left;
+    margin: 20px 10px 20px 40px;
+}
+
+.box-4 {
+    
+    background-image: url(images/dogimage.jpg);
+    color: wheat;
+    width: 250px;
+    height: 200px;
+    float: right;
+    margin: 20px 40px 20px 20px;
+}
+
+.box-5 {
+    background-image: url(images/dogimage.jpg);
+    color: wheat;
+    margin: 20px 10px 20px 40px;
+     width: 250px;
+    height: 200px;
+    float: left;
+}
+
+.main-box h1 {
+    position: relative;      
+    background: cadetblue;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    top: 161px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
